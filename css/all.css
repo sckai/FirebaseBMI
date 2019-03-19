@@ -1,0 +1,111 @@
+body{
+    background: rgb(226, 226, 226);
+}
+
+.head{
+    height: 300px;
+    max-width: 100%;
+    background: #424242;
+}
+
+.bmi_bg{
+    height: 117px;
+    width: 117px;
+    background-image: url(../img/BMICLogo.png);
+    background-repeat: no-repeat;
+}
+
+.font-style{
+    font-family: AppleSystemUIFont;
+    font-size: 18px;
+    color: #FFD366;
+}
+.input-style{
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+}
+.send{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: #FFD366;
+    transition: all 0.5s;
+}
+
+.send:hover{
+    background: #DEA821;
+    box-shadow: 0 1px 6px 3px rgba(255,196,50,0.64);
+    font-size: 18px;
+}
+
+#BMIFontColor{
+    display: none;
+}
+
+.refresh{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10px;
+    bottom: 0;
+    display: none;
+}
+
+.standFont{
+    display: none;
+}
+
+
+/*  */
+
+.title{
+    font-family: SFNSDisplay;
+    font-size: 24px;
+    color: #424242;
+}
+
+
+.list{
+    list-style:none;
+}
+
+.list li{
+    position: relative;
+    height: 62px;
+    min-width: 100%;
+    background: #FFFFFF;
+    font-family: SFNSDisplay;
+    font-size: 20px;
+    color: #4A4A4A;
+}
+
+.liStyle{
+    position: absolute;
+    left: 0;
+    
+    box-shadow: 2px 0 3px 0 rgba(134,215,63,0.29);
+    height: 62px;
+    width: 7px
+}
+
+
+/* footer */
+.footer{
+    bottom: 0;
+    background: #FFD366;
+    height: 90px;
+    max-width: 100%;
+    
+}
+.footer-bg{
+    height: 55px;
+    width: 55px;
+    background-repeat: no-repeat;
+    background-image: url(../img/BMICLogo-grey.png);
+    background-size: cover;
+}
+
+.main-section {
+    min-height: calc(100vh - 324px - 90px);
+}
