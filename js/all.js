@@ -105,19 +105,19 @@ function displayData(){
                             <h4 class="mb-0 ">${reverseArry[item].BMIstr}</h4>
                         </div> 
                         <div class="d-flex">
-                            <h6 class="mt-1 mr-1">BMI</h6>
+                            <h6 class="mt-1 mr-1 d-none d-md-block">BMI</h6>
                             <h4 class="mb-0">${reverseArry[item].BMI}</h4>
                         </div>
                         <div class="d-flex">
-                            <h6 class="mt-1 mr-1">weight</h6>
+                            <h6 class="mt-1 mr-1 d-none d-md-block">weight</h6>
                             <h4 class="mb-0">${reverseArry[item].weight}kg</h4>
                         </div>
                         <div class="d-flex">
-                            <h6 class="mt-1 mr-1">height</h6>
+                            <h6 class="mt-1 mr-1 d-none d-md-block">height</h6>
                             <h4 class="mb-0">${reverseArry[item].height}cm</h4>
                         </div>
                         <div>
-                            <h5 class="mb-0">${reverseArry[item].date}</h5>
+                            <h5 class="mb-0 d-none d-md-block">${reverseArry[item].date}</h5>
                         </div>
                     </li>`;
         }
