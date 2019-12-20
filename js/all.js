@@ -35,23 +35,22 @@ window.onload=function(){
 function BMIStandValue(BMI){
     let BmiColor = '';
     let BmiStr = '';
-
     if( BMI < 18.5 ){
         BmiColor = '#31BAF9';
         BmiStr = '過輕';
     }else if( BMI >= 18.5 && BMI < 24.9 ){
         BmiColor = '#86D73F';
         BmiStr = '理想';
-    }else if( BMI >= 25 && BMI < 29.9 ){
+    }else if( BMI >= 24.9 && BMI < 29.9 ){
         BmiColor = '#FF982D';
         BmiStr = '過重';
-    }else if( BMI >= 30 && BMI < 34.9 ){
+    }else if( BMI >= 29.9 && BMI < 34.9 ){
         BmiColor = '#FF6C03';
         BmiStr = '輕度肥胖';
-    }else if( BMI >= 35 && BMI < 39.9 ){
+    }else if( BMI >= 34.9 && BMI < 39.9 ){
         BmiColor = '#FF6C03';
         BmiStr = '中度肥胖';
-    }else if( BMI >= 40 ){
+    }else if( BMI >= 39.9 ){
         BmiColor = '#FF1200';
         BmiStr = '重度肥胖';
     }
@@ -174,7 +173,6 @@ sendDoc.addEventListener('click',function(){
         btnStyle();
         pushData();
         displayData();
-        console.log('true');
     }else{
         standFontDoc.style.display = 'block';
         standFontDoc.textContent = '僅能數字(小數2位)';
